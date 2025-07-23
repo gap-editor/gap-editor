@@ -1,93 +1,22 @@
-```bash
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#      ██████╗  █████╗ ██████╗     ███████╗██████╗ ██╗████████╗ ██████╗ ██████╗
-#     ██╔════╝ ██╔══██╗██╔══██╗    ██╔════╝██╔══██╗██║╚══██╔══╝██╔═══██╗██╔══██╗
-#     ██║  ███╗███████║██████╔╝    █████╗  ██║  ██║██║   ██║   ██║   ██║██████╔╝
-#     ██║   ██║██╔══██║██╔═══╝     ██╔══╝  ██║  ██║██║   ██║   ██║   ██║██╔═══╝
-#     ╚██████╔╝██║  ██║██║         ███████╗██████╔╝██║   ██║   ╚██████╔╝██║
-#      ╚═════╝ ╚═╝  ╚═╝╚═╝         ╚══════╝╚═════╝ ╚═╝   ╚═╝    ╚═════╝ ╚═╝
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#        > System Booting...
-#        > Welcome, Maximilian Hubert.
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### Hi there, I'm gap-editor 👋
 
-gap-editor@crypto-node:~$ cat ./about_me.txt
-```
+I'm a developer passionate about building cool things. Here's a little more about my activity on GitHub, generated automatically!
 
-### Hi there, I'm Maximilian Hubert 👋
-
-I'm a **Crypto & Rust Developer** based in Poznan, Poland 🇵🇱.
-
-My core passion lies in the intricate world of cryptography and decentralized systems. I thrive on solving complex cryptographic challenges, enjoy experimenting with cutting-edge blockchain technologies, and am a firm believer in the power of collaboration through open-source.
-
-```bash
-gap-editor@crypto-node:~$ ls -l ./skills
-```
-
-```yaml
--rw-r--r-- 1 gap-editor dev Rust       # Main language, for secure & concurrent systems
--rw-r--r-- 1 gap-editor dev Go         # For robust backend services
--rw-r--r-- 1 gap-editor dev Python     # For scripting, prototyping & data analysis
-
--rw-r--r-- 1 gap-editor dev Blockchain # Ethereum, Substrate, Solana, ZK-Rollups
--rw-r--r-- 1 gap-editor dev Cryptography # ZKPs, MPC, Digital Signatures, Hashing Algorithms
--rw-r--r-- 1 gap-editor dev SmartContracts # Solidity, Anchor (Rust)
--rw-r--r-- 1 gap-editor dev Databases  # PostgreSQL, Redis, RocksDB
-
--rw-r--r-- 1 gap-editor dev DevOps     # Docker, CI/CD, Linux, Git
-```
-
-```bash
-gap-editor@crypto-node:~$ ./current_focus.sh
-```
-
--   🔎 Diving deeper into Zero-Knowledge Proofs and their applications.
--   🦀 Contributing to open-source Rust libraries in the crypto space.
--   ⛓️ Building and experimenting with novel consensus mechanisms.
--   💡 Exploring the intersection of decentralized finance (DeFi) and privacy.
-
-```bash
-gap-editor@crypto-node:~$ ./connect_with_me.sh
-```
-
-```
-Pinging social networks...
-...
-... Connection established.
-```
-
-<!-- IMPORTANT: Replace # with your actual profile links! -->
-<p align="left">
-  <a href="https://twitter.com/luckyshinysotka#" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
-  </a>
-</p>
-
-```bash
-gap-editor@crypto-node:~$ ./fetch-github-stats.sh
-```
-
+<!--START_SECTION:metrics-->
 <p align="center">
-  <!-- GitHub Stats Card -->
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img
-      align="center"
-      src="https://github-readme-stats.vercel.app/api?username=gap-editor&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"
-      alt="gap-editor's GitHub stats"
-    />
-  </a>
-  <!-- Top Languages Card -->
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img
-      align="center"
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=gap-editor&layout=compact&theme=tokyonight&hide_border=true"
-      alt="gap-editor's top languages"
-    />
-  </a>
+  <img src="https://github.com/gap-editor/gap-editor/blob/master/github-metrics.svg" alt="Metrics" width="700">
 </p>
+<!--END_SECTION:metrics-->
 
-```bash
-gap-editor@crypto-node:~$ logout
+---
 
-# Session terminated. Have a great day!
-```
+### 🔧 How This README is Generated
+
+This profile is powered by [GitHub Metrics](https://github.com/lowlighter/metrics), an amazing project by [@lowlighter](https://github.com/lowlighter).
+
+1.  **Special Repository**: This `README.md` lives in a special repository `gap-editor/gap-editor`.
+2.  **GitHub Action**: A GitHub Action runs on a schedule (daily) to fetch my latest stats.
+3.  **Metrics Image**: The action generates the `github-metrics.svg` image file you see above.
+4.  **README Update**: The `README.md` simply displays this generated image.
+
+If you want to create your own, check out the [official documentation](https://github.com/lowlighter/metrics)!
