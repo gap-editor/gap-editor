@@ -19,7 +19,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           # Обязательно замените YourUsername на ваш никнейм на GitHub!
-          user: YourUsername 
+          user: gap-editor 
           
           # Токен для доступа к API GitHub (не меняйте эту строку)
           token: ${{ secrets.GITHUB_TOKEN }}
