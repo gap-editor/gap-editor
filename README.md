@@ -1,3 +1,1 @@
-## Hi there 👋
-
-![Metrics](metrics.svg)
+![Metrics](github-metrics.svg)
