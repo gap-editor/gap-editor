@@ -15,9 +15,14 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          user: gap-editor 
+          user: gap-editor
           token: ${{ secrets.GITHUB_TOKEN }}
-          base: header, activity, community
+          
+          template: terminal 
+
+          base: activity, community
+          
+          config_animated: yes
+
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-     
+          plugin_isocalendar_duration: full-year 
