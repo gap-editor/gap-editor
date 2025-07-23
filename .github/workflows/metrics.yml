@@ -1,12 +1,8 @@
-# Файл: .github/workflows/metrics.yml
 name: Metrics
 on:
-  # Запускать каждый день в полночь
   schedule:
     - cron: '0 0 * * *'
-  # Позволяет запускать вручную со страницы Actions
   workflow_dispatch:
-  # Запускать при пуше в ветку main/master
   push:
     branches:
       - main
@@ -14,20 +10,14 @@ on:
 jobs:
   metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Обязательно замените YourUsername на ваш никнейм на GitHub!
           user: gap-editor 
-          
-          # Токен для доступа к API GitHub (не меняйте эту строку)
           token: ${{ secrets.GITHUB_TOKEN }}
-          
-          # Настройки внешнего вида и плагинов
-          base: header, activity, community # Основные метрики: заголовок, активность
-          
-          # Включаем плагин изометрического календаря
+          base: header, activity, community
           plugin_isocalendar: yes
-          
-          # Указываем, за какой период показывать календарь (full-year или half-year)
-          plugin_isocalendar_duration: full-year 
+          plugin_isocalendar_duration: full-year
+     
